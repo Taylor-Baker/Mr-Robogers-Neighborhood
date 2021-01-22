@@ -78,9 +78,6 @@ Expect(beepBoop().toEqual())();
 
 Test: 'It will replace all 3s with "won't you be my neighbor?"'
 Expect(beepBoop().toEqual())();
-
-Test: "It will convert the number input by the user into an array of numbers starting at 0 and leading up to that number."
-Expect(beepBoop().toEqual())();
 ```
 
 ### License

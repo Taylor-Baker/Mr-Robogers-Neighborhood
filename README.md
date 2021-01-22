@@ -65,7 +65,7 @@ _For any questions, comments, or to report a bug, please contact the developer a
 
 ## Specs
 
-Describe: 
+Describe: beepBoop()
 
 Test: 
 Expect: 

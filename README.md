@@ -74,7 +74,7 @@ Test 2: 'It will replace all 3s with "won't you be my neighbor?"'
 Expect(beepBoop(20)).toEqual([0,1,2,Won't you be my neighbor?,4,5,6,7,8,9,10,11,12,Won't you be my neighbor?,14,15,16,17,18,19,20]);
 
 Test 3: 'It will replace all 2s with "boop".'
-Expect(beepBoop()).toEqual([]);
+Expect(beepBoop(20)).toEqual([0,1,boop,Won't you be my neighbor?,4,5,6,7,8,9,10,11,boop,Won't you be my neighbor?,14,15,16,17,18,19,boop]);
 
 Test 4: 'It will replace all 1s with "beep".'
 Expect(beepBoop()).toEqual([]);

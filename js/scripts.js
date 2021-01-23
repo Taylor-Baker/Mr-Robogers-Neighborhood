@@ -20,8 +20,6 @@ $(document).ready(function() {
 
     const countTo = parseInt($("input#count-to").val());
 
-    const roboNumArray = beepBoop(countTo);
-
-    $("#output").text(roboNumArray.join(', '));
+    $("#output").text((beepBoop(countTo)).join(', '));
   });
 });

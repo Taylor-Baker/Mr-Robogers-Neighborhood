@@ -1,7 +1,6 @@
 function beepBoop(number) {
-  let countTo = number;
   let numbersArray = [];
-  for (let i = 0; i <= countTo; i++) {
+  for (let i = 0; i <= number; i++) {
     if ((i.toString()).includes(3)) {
       numbersArray.push("Won't you be my neighbor?");
     } else if ((i.toString()).includes(2)) {
